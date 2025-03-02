@@ -1,21 +1,29 @@
 /* ⚠️ ESTE CÓDIGO FOI DESENVOLVIDO PARA UM AMBIENTE NODE.JS ⚠️ */
-
-// Carregar e parsear o arquivo JSON
 const fs = require('fs');
-const rawData = fs.readFileSync('./library.json');
-const library = JSON.parse(rawData).biblioteca;
+const path = require('path');
+
+let library;
+try {
+    const rawData = fs.readFileSync(path.join(__dirname, 'library.json'));
+    library = JSON.parse(rawData).biblioteca;
+} catch (error) {
+    console.error("Erro ao carregar library.json:", error);
+    library = []; // Fallback to empty library
+}
+
 const cookie = {
     visitedMenu: null,
     selectedBook: null,
 }
 
 class Book {
-    static main (userInput, cookie) {
+    static main(userInput, cookie) {
+        
         // Verifica se o usuário já visitou algum menu
         switch (cookie.visitedMenu) {
             case 'firstMenu':
                 // Se o usuário visitou o primeiro menu
-                if(parseInt(userInput)){
+                if(userInput && !isNaN(parseInt(userInput))){
                     switch (parseInt(userInput)) {
                         case 1:
                             return this.showList();
@@ -63,7 +71,7 @@ class Book {
 
             default:
                 // Se o usuário não visitou nenhum menu, exibir o primeiro menu
-                this.firstMenu();
+                return this.firstMenu();
         }
     }
 
@@ -96,13 +104,13 @@ class Book {
     static SearchRequest(type){
         switch (type) {
             case 'byTitle':
-                visitedMenu = 'searchByTitle';
+                cookie.visitedMenu = 'searchByTitle';
                 return "Digite o título do livro que deseja buscar:";
             case 'byAuthor':
-                visitedMenu = 'searchByAuthor';
+                cookie.visitedMenu = 'searchByAuthor';
                 return "Digite o nome do autor que deseja buscar:";
             case 'byGenre':
-                visitedMenu = 'seachByGenre';
+                cookie.visitedMenu = 'searchByGenre';
                 return "Digite o gênero do livro que deseja buscar:";
             default:
                 return "❌ Erro ao processar a solicitação de busca.";
@@ -110,16 +118,39 @@ class Book {
     }
 
     static SearchByTitle(titulo) {
-        return library.filter(livro => livro.titulo.toLowerCase() === titulo.toLowerCase()
-        );
+        const results = library.filter(livro => livro.titulo.toLowerCase() === titulo.toLowerCase());
+        if (results.length > 0) {
+            return (
+                "📖 *Livros Encontrados por Título:*\n\n" +
+                results.map((book, index) => `${index + 1}. ${book.titulo} - ${book.autor}`).join('\n')
+            );
+        } else {
+            return "⚠️ Nenhum livro encontrado com esse título.";
+        }
     }
 
     static SearchByAuthor(autor) {
-        return library.filter(livro => livro.autor.toLowerCase() == autor.toLowerCase());
+        const results = library.filter(livro => livro.autor.toLowerCase() === autor.toLowerCase());
+        if (results.length > 0) {
+            return (
+                "🧑‍🦳 *Livros Encontrados por Autor:*\n\n" +
+                results.map((book, index) => `${index + 1}. ${book.titulo} - ${book.autor}`).join('\n')
+            );
+        } else {
+            return "⚠️ Nenhum livro encontrado para esse autor.";
+        }
     }
 
     static SearchByGenre(genero) {
-        return library.filter(livro => livro.generotoLowerCase() == genero.toLowerCase());
+        const results = library.filter(livro => livro.genero.toLowerCase() === genero.toLowerCase());
+        if (results.length > 0) {
+            return (
+                "🥀 *Livros Encontrados por Gênero:*\n\n" +
+                results.map((book, index) => `${index + 1}. ${book.titulo} - ${book.autor}`).join('\n')
+            );
+        } else {
+            return "⚠️ Nenhum livro encontrado nesse gênero.";
+        }
     }
 
     static formatMenu(menuData) {
