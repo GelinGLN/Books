@@ -6,7 +6,8 @@
             "genero": "Distopia",
             "isbn": "9780451524935",
             "paginas": 328,
-            "sinopse": "Um romance sobre um futuro distópico onde o governo controla todos os aspectos da vida."
+            "sinopse": "Um romance sobre um futuro distópico onde o governo controla todos os aspectos da vida.",
+            "link": "https://www.zlibrary.to/dl/1984"
         },
         {
             "titulo": "O Sol é Para Todos",
@@ -14,7 +15,8 @@
             "genero": "Ficção",
             "isbn": "9780061120084",
             "paginas": 336,
-            "sinopse": "Uma história sobre injustiça racial e inocência infantil no sul dos Estados Unidos."
+            "sinopse": "Uma história sobre injustiça racial e inocência infantil no sul dos Estados Unidos.",
+            "link": "https://zlibrary.to/dl/o-sol-e-para-todos"
         },
         {
             "titulo": "Orgulho e Preconceito",
@@ -22,7 +24,8 @@
             "genero": "Romance",
             "isbn": "9781503290563",
             "paginas": 279,
-            "sinopse": "Um romance clássico sobre amor e posição social na Inglaterra do século XIX."
+            "sinopse": "Um romance clássico sobre amor e posição social na Inglaterra do século XIX.",
+            "link": "https://zlibrary.to/dl/orgulho-e-preconceito"
         },
         {
             "titulo": "O Grande Gatsby",
@@ -30,7 +33,8 @@
             "genero": "Tragédia",
             "isbn": "9780743273565",
             "paginas": 180,
-            "sinopse": "Uma história sobre o sonho americano e a desilusão da Era do Jazz."
+            "sinopse": "Uma história sobre o sonho americano e a desilusão da Era do Jazz.",
+            "link": "https://www.zlibrary.to/dl/o-grande-gatsby-1"
         },
         {
             "titulo": "Moby Dick",
@@ -38,7 +42,8 @@
             "genero": "Aventura",
             "isbn": "9781503280786",
             "paginas": 635,
-            "sinopse": "A épica história da busca obsessiva do Capitão Ahab para matar a baleia branca, Moby Dick."
+            "sinopse": "A épica história da busca obsessiva do Capitão Ahab para matar a baleia branca, Moby Dick.",
+            "link": "https://zlibrary.to/dl/moby-dick"
         },
         {
             "titulo": "Guerra e Paz",
@@ -46,7 +51,8 @@
             "genero": "Ficção Histórica",
             "isbn": "9781400079988",
             "paginas": 1225,
-            "sinopse": "Um romance que entrelaça as vidas de várias famílias durante as Guerras Napoleônicas."
+            "sinopse": "Um romance que entrelaça as vidas de várias famílias durante as Guerras Napoleônicas.",
+            "link": "https://zlibrary.to/dl/guerra-e-paz"
         },
         {
             "titulo": "O Apanhador no Campo de Centeio",
@@ -54,7 +60,8 @@
             "genero": "Ficção",
             "isbn": "9780316769488",
             "paginas": 277,
-            "sinopse": "Uma história sobre rebeldia e alienação adolescente, narrada por Holden Caulfield."
+            "sinopse": "Uma história sobre rebeldia e alienação adolescente, narrada por Holden Caulfield.",
+            "link": "https://zlibrary.to/dl/o-apanhador-no-campo-de-centeio"
         },
         {
             "titulo": "O Hobbit",
@@ -62,7 +69,8 @@
             "genero": "Fantasia",
             "isbn": "9780547928227",
             "paginas": 310,
-            "sinopse": "A aventura de Bilbo Bolseiro ao se juntar a uma missão para recuperar um reino perdido."
+            "sinopse": "A aventura de Bilbo Bolseiro ao se juntar a uma missão para recuperar um reino perdido.",
+            "link": "https://zlibrary.to/dl/o-hobbit-2"
         },
         {
             "titulo": "Crime e Castigo",
@@ -70,7 +78,8 @@
             "genero": "Ficção Filosófica",
             "isbn": "9780486415871",
             "paginas": 430,
-            "sinopse": "Um drama psicológico sobre um jovem que comete um crime e luta com a culpa."
+            "sinopse": "Um drama psicológico sobre um jovem que comete um crime e luta com a culpa.",
+            "link": "https://zlibrary.to/dl/crime-e-castigo-10"
         },
         {
             "titulo": "Os Irmãos Karamazov",
@@ -78,7 +87,8 @@
             "genero": "Ficção Filosófica",
             "isbn": "9780374528379",
             "paginas": 796,
-            "sinopse": "Uma complexa história de fé, dúvida e as lutas morais da família Karamazov."
+            "sinopse": "Uma complexa história de fé, dúvida e as lutas morais da família Karamazov.",
+            "link": "https://zlibrary.to/dl/os-irmaos-karamazov-1"
         }
     ]
 }
