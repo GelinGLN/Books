@@ -1,0 +1,84 @@
+{
+    "biblioteca": [
+        {
+            "titulo": "1984",
+            "autor": "George Orwell",
+            "genero": "Distopia",
+            "isbn": "9780451524935",
+            "paginas": 328,
+            "sinopse": "Um romance sobre um futuro distópico onde o governo controla todos os aspectos da vida."
+        },
+        {
+            "titulo": "O Sol é Para Todos",
+            "autor": "Harper Lee",
+            "genero": "Ficção",
+            "isbn": "9780061120084",
+            "paginas": 336,
+            "sinopse": "Uma história sobre injustiça racial e inocência infantil no sul dos Estados Unidos."
+        },
+        {
+            "titulo": "Orgulho e Preconceito",
+            "autor": "Jane Austen",
+            "genero": "Romance",
+            "isbn": "9781503290563",
+            "paginas": 279,
+            "sinopse": "Um romance clássico sobre amor e posição social na Inglaterra do século XIX."
+        },
+        {
+            "titulo": "O Grande Gatsby",
+            "autor": "F. Scott Fitzgerald",
+            "genero": "Tragédia",
+            "isbn": "9780743273565",
+            "paginas": 180,
+            "sinopse": "Uma história sobre o sonho americano e a desilusão da Era do Jazz."
+        },
+        {
+            "titulo": "Moby Dick",
+            "autor": "Herman Melville",
+            "genero": "Aventura",
+            "isbn": "9781503280786",
+            "paginas": 635,
+            "sinopse": "A épica história da busca obsessiva do Capitão Ahab para matar a baleia branca, Moby Dick."
+        },
+        {
+            "titulo": "Guerra e Paz",
+            "autor": "Leo Tolstoy",
+            "genero": "Ficção Histórica",
+            "isbn": "9781400079988",
+            "paginas": 1225,
+            "sinopse": "Um romance que entrelaça as vidas de várias famílias durante as Guerras Napoleônicas."
+        },
+        {
+            "titulo": "O Apanhador no Campo de Centeio",
+            "autor": "J.D. Salinger",
+            "genero": "Ficção",
+            "isbn": "9780316769488",
+            "paginas": 277,
+            "sinopse": "Uma história sobre rebeldia e alienação adolescente, narrada por Holden Caulfield."
+        },
+        {
+            "titulo": "O Hobbit",
+            "autor": "J.R.R. Tolkien",
+            "genero": "Fantasia",
+            "isbn": "9780547928227",
+            "paginas": 310,
+            "sinopse": "A aventura de Bilbo Bolseiro ao se juntar a uma missão para recuperar um reino perdido."
+        },
+        {
+            "titulo": "Crime e Castigo",
+            "autor": "Fyodor Dostoevsky",
+            "genero": "Ficção Filosófica",
+            "isbn": "9780486415871",
+            "paginas": 430,
+            "sinopse": "Um drama psicológico sobre um jovem que comete um crime e luta com a culpa."
+        },
+        {
+            "titulo": "Os Irmãos Karamazov",
+            "autor": "Fyodor Dostoevsky",
+            "genero": "Ficção Filosófica",
+            "isbn": "9780374528379",
+            "paginas": 796,
+            "sinopse": "Uma complexa história de fé, dúvida e as lutas morais da família Karamazov."
+        }
+    ]
+}
